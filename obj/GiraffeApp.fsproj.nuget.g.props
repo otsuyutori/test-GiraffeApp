@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/otsuyutori/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/otsuyutori/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/home/otsuyutori/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.ml/2.0.0/build/netstandard2.0/Microsoft.ML.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml/2.0.0/build/netstandard2.0/Microsoft.ML.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.ml.onnxruntime/1.13.1/build/netstandard2.0/Microsoft.ML.OnnxRuntime.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml.onnxruntime/1.13.1/build/netstandard2.0/Microsoft.ML.OnnxRuntime.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/otsuyutori/.nuget/packages/fsharp.core/6.0.7</PkgFSharp_Core>
+    <PkgPly Condition=" '$(PkgPly)' == '' ">/home/otsuyutori/.nuget/packages/ply/0.3.1</PkgPly>
+    <PkgMicrosoft_ML Condition=" '$(PkgMicrosoft_ML)' == '' ">/home/otsuyutori/.nuget/packages/microsoft.ml/2.0.0</PkgMicrosoft_ML>
+    <PkgMicrosoft_ML_OnnxTransformer Condition=" '$(PkgMicrosoft_ML_OnnxTransformer)' == '' ">/home/otsuyutori/.nuget/packages/microsoft.ml.onnxtransformer/2.0.0</PkgMicrosoft_ML_OnnxTransformer>
+    <PkgMicrosoft_ML_OnnxRuntime Condition=" '$(PkgMicrosoft_ML_OnnxRuntime)' == '' ">/home/otsuyutori/.nuget/packages/microsoft.ml.onnxruntime/1.13.1</PkgMicrosoft_ML_OnnxRuntime>
+    <PkgGiraffe Condition=" '$(PkgGiraffe)' == '' ">/home/otsuyutori/.nuget/packages/giraffe/6.0.0</PkgGiraffe>
+  </PropertyGroup>
+</Project>

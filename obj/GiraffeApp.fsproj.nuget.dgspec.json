@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/otsuyutori/GiraffeApp/GiraffeApp.fsproj": {}
+  },
+  "projects": {
+    "/home/otsuyutori/GiraffeApp/GiraffeApp.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/otsuyutori/GiraffeApp/GiraffeApp.fsproj",
+        "projectName": "GiraffeApp.App",
+        "projectPath": "/home/otsuyutori/GiraffeApp/GiraffeApp.fsproj",
+        "packagesPath": "/home/otsuyutori/.nuget/packages/",
+        "outputPath": "/home/otsuyutori/GiraffeApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/otsuyutori/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/home/otsuyutori/.dotnet/sdk/6.0.404/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.7, )",
+              "generatePathProperty": true
+            },
+            "Giraffe": {
+              "target": "Package",
+              "version": "[6.0.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.ML.OnnxRuntime": {
+              "target": "Package",
+              "version": "[1.13.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.ML.OnnxTransformer": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "generatePathProperty": true
+            },
+            "Ply": {
+              "target": "Package",
+              "version": "[0.3.*, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/otsuyutori/.dotnet/sdk/6.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
